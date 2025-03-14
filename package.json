@@ -1,6 +1,6 @@
 {
   "name": "@thepulsewallet/crypto-paillier",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Paillier's crypto scheme",
   "keywords": [
     "paillier encrypt",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Safeheron/crypto-paillier-js.git"
+    "url": "git@github.com:thepulsewallet/crypto-paillier-js.git"
   },
   "author": "Max<hejh1500@gmail.com>",
   "files": [
