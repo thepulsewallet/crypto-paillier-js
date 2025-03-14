@@ -1,7 +1,7 @@
 'use strict'
 import * as assert from "assert"
 import * as BN from "bn.js"
-import {Rand} from '@safeheron/crypto-rand'
+import {Rand} from '@thepulsewallet/crypto-rand'
 import {PailPrivKey, PailPubKey, createPailKeyPair} from ".."
 
 const paillier = require('../lib/paillier')

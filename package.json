@@ -1,5 +1,5 @@
 {
-  "name": "@safeheron/crypto-paillier",
+  "name": "@thepulsewallet/crypto-paillier",
   "version": "1.0.0",
   "description": "Paillier's crypto scheme",
   "keywords": [
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:safeheron/crypto-paillier-js"
+    "url": "git@github.com:Safeheron/crypto-paillier-js.git"
   },
   "author": "Max<hejh1500@gmail.com>",
   "files": [
@@ -40,7 +40,7 @@
     "typescript": "^4.0.5"
   },
   "dependencies": {
-    "@safeheron/crypto-rand": "^1.0.0",
+    "@thepulsewallet/crypto-rand": "^1.0.0",
     "bn.js": "^5.2.1"
   },
   "standardx": {
@@ -48,5 +48,8 @@
     "env": [
       "mocha"
     ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
